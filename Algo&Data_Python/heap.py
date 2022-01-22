@@ -30,7 +30,7 @@ class MinHeap:
                 j += 1
             print(result)
             i *= 2
-    def pop(self):
+    #def pop(self):
 
 # Github 정리해서 올리기
 # 퀵소트 구현

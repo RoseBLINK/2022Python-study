@@ -117,29 +117,52 @@ def mergeSort(arr):
 
     return merge(leftArr,rightArr)
 
-def test(arr):
-    arr[2] = 1
-    return arr
+def quickSort(arr):
+    #퀵소트
+    #피봇을 정하고 그것보다 작은것들은 왼쪽으로, 큰건 오른쪽으로
+    if len(arr) <= 1:
+        return arr
+
+    left = []
+    right =[]
+    pivot = arr[len(arr) // 2]
+
+    for data in arr:
+        if data < pivot:
+            left.append(data)
+        elif data > pivot:
+            right.append(data)
+    pvList = []
+    pvList.append(pivot)
+
+    return quickSort(left) + pvList + quickSort(right)
+
+a = [5, 9 ,6 ,8 ,7 ,2]
+print(quickSort(a))
+
+# def test(arr):
+#     arr[2] = 1
+#     return arr
 
 
 # print(merge([1],[2]))
 # merge([2,4,5],[1,3])
-arr = []
-for i in range(10):
-    arr.append(random.randint(1,100))
-# print(mergeSort(arr))
-print(mergeNew(2,5,arr))
-
+# arr = []
+# for i in range(10):
+#     arr.append(random.randint(1,100))
+# # print(mergeSort(arr))
+# print(mergeNew(2,5,arr))
 #
-# print(arr)
-# print(bubbleSort(arr))
-# print(arr)
-# print(selectionSort(arr))
-
-arr1 = [8,5, 6,2,4]
-
-# insertionSort(arr1)
-print(arr1[0:2])
+# #
+# # print(arr)
+# # print(bubbleSort(arr))
+# # print(arr)
+# # print(selectionSort(arr))
+#
+# arr1 = [8,5, 6,2,4]
+#
+# # insertionSort(arr1)
+# print(arr1[0:2])
 
 # print(arr)
 
