@@ -140,6 +140,34 @@ def quickSort(arr):
 a = [5, 9 ,6 ,8 ,7 ,2]
 print(quickSort(a))
 
+
+
+def mergeIDX(left,right,arr):
+    p = left # left
+    mid = (left+right) // 2
+    q = mid +1
+    newArr = []
+    while p < mid and q < right:
+        if arr[p] < arr[q]:
+            newArr.append(arr[p])
+            p+=1
+        else:
+            newArr.append(arr[q])
+            q+=1
+
+    j = 0
+    for i in range(left,right):
+        arr[i] = newArr[j]
+        j+=1
+
+
+
+
+def mergeIdxSort():
+
+
+
+
 # def test(arr):
 #     arr[2] = 1
 #     return arr
