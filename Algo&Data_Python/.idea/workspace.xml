@@ -5,14 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa563606-0330-4854-b85b-4c1df1e98724" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Hash.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baekjoon/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baekjoon/1021.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baekjoon/11279.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../baekjoon/1550.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heap.py" beforeDir="false" afterPath="$PROJECT_DIR$/heap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -98,12 +109,27 @@
       <updated>1642863503388</updated>
       <workItem from="1642863504512" duration="13000" />
       <workItem from="1642864267293" duration="2247000" />
-      <workItem from="1642918152004" duration="5571000" />
+      <workItem from="1642918152004" duration="6168000" />
+      <workItem from="1643266155369" duration="23000" />
+      <workItem from="1643272030325" duration="599000" />
+      <workItem from="1643272647789" duration="4000" />
+      <workItem from="1643286713675" duration="982000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Algo_Data_Python$sort.coverage" NAME="sort Coverage Results" MODIFIED="1642869467847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

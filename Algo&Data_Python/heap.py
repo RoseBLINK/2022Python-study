@@ -45,7 +45,7 @@ class MinHeap:
 
         #예외처리
         #the hardest
-        
+
         if leftChild > self.size :
             leftChildValue = sys.maxsize
         else:
